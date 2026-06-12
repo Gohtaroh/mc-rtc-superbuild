@@ -1,6 +1,6 @@
-set(EXTENSIONS_DIR ${CMAKE_CURRENT_LIST_DIR}/superbuild-extensions)
-include(${CMAKE_CURRENT_LIST_DIR}/plugins/mc_kinova_sim_superbuild.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/interfaces/mc_mujoco.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/interfaces/mc_kortex.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/interfaces/kinova_mj_description.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/plugins/mc_residual_estimation.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/plugins/minimum_jerk_task.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/plugins/mc_joystick_plugin.cmake)
