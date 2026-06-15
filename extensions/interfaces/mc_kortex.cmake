@@ -24,7 +24,7 @@ AddCatkinProject(
 AddCatkinProject(
   ros2_robotiq_gripper
   GITHUB PickNikRobotics/ros2_robotiq_gripper
-  GIT_TAG origin/main
+  GIT_TAG origin/humble # main requires ros2_control newer than Humble (get_optional)
   DEPENDS serial
   WORKSPACE data_ws INSTALL_DEPENDENCIES
 )
